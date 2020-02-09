@@ -1,56 +1,135 @@
 <!DOCTYPE html>
 <html lang="en">
-
-<head>
-    <meta charset="utf-8">
+  <head>
+    <meta charset="utf-8" />
     <title>COSMOS</title>
-    <meta http-equiv="X-UA-Compatible" content="IE=Edge">
-    <meta name="viewport" content="width=device-width, initial-scale=1">
-    <link rel="stylesheet" href="../custom.css">
-</head>
+    <meta http-equiv="X-UA-Compatible" content="IE=Edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <link rel="stylesheet" href="../bootstrap.css" />
+    <link rel="stylesheet" href="../custom.css" />
+  </head>
 
-<body>
-    <nav class="navbar navbar-expand-lg" role="navigation">
-        <ul>
-            <li>
-                <a class="navbar-brand" href="../index.html">COSMOS</a>
-            </li>
-            <li>
-                <div class="collapse navbar-collapse" id="navbarNavAltMarkup">
-                    <div class="navbar-nav">
-                        <a class="nav-item nav-link" href="../index.html">HOME</a>
-                        <a class="nav-item nav-link" href="projects.html">PROJECTS</a>
-                        <a class="nav-item nav-link active" href="pages/services.html">SERVICES <span
-                                class="sr-only"></span></a>
-                    </div>
-                </div>
-            </li>
-            <li>
-                <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNavAltMarkup"
-                    aria-controls="navbarNavAltMarkup" aria-expanded="false" aria-label="Toggle navigation">
-                    <span class="navbar-toggler-icon"></span>
-                </button>
-            </li>
-        </ul>
-
-    </nav>
-
-    <footer id="copyright">
-        <div class="container">
-            <div class="row">
-                <div class="col-md-12 text-center">
-                    <p class="wow bounceIn" data-wow-offset="50" data-wow-delay="0.3s">
-                        Copyright &copy; COSMOS 2017</p>
-                </div>
+  <body>
+    <nav class="navbar navbar-expand-lg navbar-noflex" role="navigation">
+      <ul>
+        <li>
+          <a class="navbar-brand" href="../index.html">COSMOS</a>
+        </li>
+        <li>
+          <div class="collapse navbar-collapse" id="navbarNavAltMarkup">
+            <div class="navbar-nav">
+              <a class="nav-item nav-link" href="../index.html">HOME</a>
+              <a class="nav-item nav-link" href="projects.html">PROJECTS</a>
+              <a class="nav-item nav-link active" href="services.html"
+                >SERVICES <span class="sr-only"></span
+              ></a>
             </div>
+          </div>
+        </li>
+        <li>
+          <button
+            class="navbar-toggler"
+            type="button"
+            data-toggle="collapse"
+            data-target="#navbarNavAltMarkup"
+            aria-controls="navbarNavAltMarkup"
+            aria-expanded="false"
+            aria-label="Toggle navigation">
+            <span class="navbar-toggler-icon"></span>
+          </button>
+        </li>
+      </ul>
+    </nav>
+    <!--start carousel-->
+    <section id="slideshow">
+      <div id="carouselExampleIndicators" class="carousel slide" data-ride="carousel">
+        <div class="carousel-inner">
+          <div class="carousel-item active">
+            <div class="row">
+              <img class="d-block w-100" src="../imgs/s1.png" alt="Enceladus">
+              <div class="carousel-caption">
+                <h5><b>ENCELADUS</b></h5>
+                <p><b>The Saturn System <br/> Distance: 9.5 AU <br/>Population: 3920</b></p>
+              </div>
+             <!--start price tag-->
+              <div class="card" style="width: 18rem;">
+                <div class="card-body">
+                  <h5 class="card-title">Enceladus</h5>
+                  <p class="card-text">
+                    is the sixth-largest moon of Saturn. It is about a tenth of
+                    Saturn's largest moon, Titan. <br/><br/>
+                    Explore this amazing cosmic marvel in a safe and fast trip
+                    with our aerospace company.
+                  </p>
+                  <a href="#" class="btn btn-primary mybtn">BUY</a>
+                </div>
+              </div>
+            </div>
+            <!--end price tag-->
+          </div>
+          <div class="carousel-item">
+            <div class="row">
+              <img class="d-block w-100" src="../imgs/img2.jpg" alt="Iapetus">
+              <div class="card" style="width: 18rem;">
+                <div class="card-body">
+                  <h5 class="card-title">Iapetus</h5>
+                  <p class="card-text">
+                    is the third-largest natural satellite of Saturn, eleventh-largest in the Solar System and the largest body in the Solar System known not to be in hydrostatic equilibrium.<br/><br/>
+                    Explore this amazing cosmic marvel in a safe and fast trip with our aerospace company.
+                  </p>
+                  <a href="#" class="btn btn-primary mybtn">BUY</a>
+                </div>
+              </div>
+            </div>
+            
+          </div>
         </div>
+        <a class="carousel-control-prev" href="#carouselExampleIndicators" role="button" data-slide="prev">
+          <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+          <span class="sr-only">Previous</span>
+        </a>
+        <a class="carousel-control-next" href="#carouselExampleIndicators" role="button" data-slide="next">
+          <span class="carousel-control-next-icon" aria-hidden="true"></span>
+          <span class="sr-only">Next</span>
+        </a>
+      </div>
+      <!--end carousel-->
+    </section>
+    <section id="package">
+      <div class="container-fluid">
+        <div class="row">
+          <span class="icon-stack" style="text-align:center;">
+            <i class="fas fa-suitcase fa-7x"></i>
+            <span class="icon-stack"><strong>pack</strong></span>
+        </span>
+        
+          <i class="fas fa-rocket fa-7x"></i>
+          <i class="fas fa-leaf fa-7x"></i>
+        </div>
+        <div class="row aboveIcon">
+          <p><b>pack</b></p>
+          <p><b>fly</b></p>
+          <p><b>live</b></p>
+        </div>
+      </div>
+      
+      
+    </section>
+    <footer id="copyright">
+      <div class="container">
+        <div class="row">
+          <div class="col-md-12 text-center">
+            <p class="wow bounceIn" data-wow-offset="50" data-wow-delay="0.3s">
+              Copyright &copy; COSMOS 2017
+            </p>
+          </div>
+        </div>
+      </div>
     </footer>
-    <!-- <footer id="sticky-footer" class="footer-copyright text-center py-3">
-        <div class="container text-center">
-          <small>Copyright &copy; COSMOS 2017</small>
-        </div>
-      </footer> -->
-</body>
-<script src="custom.js"></script>
-
+    
+    <script src="https://code.jquery.com/jquery-3.4.1.slim.min.js" integrity="sha384-J6qa4849blE2+poT4WnyKhv5vZF5SrPo0iEjwBvKU7imGFAV0wwj1yYfoRSJoZ+n" crossorigin="anonymous"></script>
+    <script src="https://cdn.jsdelivr.net/npm/popper.js@1.16.0/dist/umd/popper.min.js" integrity="sha384-Q6E9RHvbIyZFJoft+2mJbHaEWldlvI9IOYy5n3zV9zzTtmI3UksdQRVvoxMfooAo" crossorigin="anonymous"></script>
+    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/js/bootstrap.min.js" integrity="sha384-wfSDF2E50Y2D1uUdj0O3uMBJnjuUD4Ih7YwaYd1iqfktj0Uod8GCExl3Og8ifwB6" crossorigin="anonymous"></script>
+    <script src="https://kit.fontawesome.com/0d11871767.js" crossorigin="anonymous"></script>
+  </body>
 </html>

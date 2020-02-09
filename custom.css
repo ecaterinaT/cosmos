@@ -1,14 +1,27 @@
+body{
+  overflow:auto;
+}
 /* start nagivation */
 ul > li {
   display: inline-table;
   /* padding-left: 2em; */
 }
 .navbar {
-  background-image: url("nav.png");
+  background-image: url("imgs/nav.png");
   border: none;
   box-shadow: none;
   margin: 0 !important;
 }
+
+.navbar-noflex {
+  display: block;
+  padding: 0;
+}
+
+.navbar-noflex > ul {
+  margin: auto;
+}
+
 .navbar-nav {
 	height: 3em;
 	padding-left: 4em;
@@ -21,6 +34,11 @@ ul > li {
   text-decoration: none;
   letter-spacing: -1.5px;
 }
+
+a.navbar-brand {
+  color: #ffffff;
+}
+
 .navbar-nav a {
   padding-left: 2rem;
   font-weight: bold;
@@ -43,6 +61,86 @@ ul > li {
   z-index: 1000;
 }
 /* end navigation */
+/*start carousel*/
+#carouselExampleIndicators .carousel-item img{
+  max-width: 50vw;
+  max-height: 50vh;
+  margin-left: 15vw;
+  margin-right: 5px;
+  margin-bottom: 5px;
+  margin-top: 3vw;
+}
+#carouselExampleIndicators .carousel-caption{
+  text-align: left;
+  top: 5vh;
+  bottom: auto;
+}
+#carouselExampleIndicators .card {
+  margin-top: 3vw;
+  max-height: 50vh;
+  border-style: solid;
+  border-width: 7px;
+  border-color: rgb(143, 142 , 199);
+  padding-left: 5px;
+  border-radius: inherit;
+  margin-left: 2vw;
+}
+.mybtn{
+  max-width: 113px;
+  max-height: 39px;
+  color: rgb(51, 51, 51);
+  background-color: rgb(255, 206, 34);
+}
+.carousel-control-prev-icon,
+.carousel-control-next-icon {
+  height: 92px;
+  width: 92px;
+  outline: rgb(99, 98, 167);
+  background-size: 100%, 100%;
+  border-radius: 50%;
+  background-color: rgb(99, 98, 167);
+  background-size: 2vw;
+}
+
+.carousel-control-next-icon:after
+{
+  content: '›';
+  font-size: 55px;
+  color: #ffffff;
+}
+
+.carousel-control-prev-icon:after {
+  content: "‹";
+  font-size: 55px;
+  color: #ffffff;
+}
+/*end carousel*/
+/*custom icons*/
+#package{
+  display: block;
+  box-sizing: inherit;
+  padding-left: 35vw;
+  padding-top: 8vh;
+  padding-bottom: 6vh;
+  margin-top: 5vh;
+  margin-bottom: 10vh;
+  background-color: rgb(99, 98, 167);
+}
+#package i.fa-suitcase{
+  color: rgb(245, 185, 68);
+  padding-right: 3vw;
+}
+#package i.fa-rocket{
+  color: rgb(106, 241, 208);
+  padding-right: 3vw;
+}
+#package i.fa-leaf{
+  color: rgb(198, 241, 106);
+}
+#package .aboveIcon{
+  padding-right: 3vw;
+}
+/*end icons*/
 @media only screen and (max-width: 767px) {
   .navbar-expand-lg {
     position: right;
@@ -98,8 +196,3 @@ ul > li {
   padding-left: 2vw;
 }
 /* end copyright */
-/* #sticky-footer {
-	flex-shrink: 0;
-	position: fixed;
-	background: rgb(51, 51, 51);
-  } */
