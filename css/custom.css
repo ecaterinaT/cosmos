@@ -16,9 +16,9 @@ img.border {
 #package {
     display: block;
     box-sizing: inherit;
+    padding-top: 3vh;
+    padding-bottom: 1vh;
     padding-left: 30vw;
-    padding-top: 8vh;
-    padding-bottom: 6vh;
     margin-top: 5vh;
     background-color: rgb(99, 98, 167);
 }
