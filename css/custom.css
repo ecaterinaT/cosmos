@@ -1,0 +1,190 @@
+html,
+body {
+    height: 100%;
+}
+
+body {
+    overflow: auto;
+}
+
+img.border {
+    width: 28px;
+    height: 48px;
+}
+
+/*custom icons*/
+#package {
+    display: block;
+    box-sizing: inherit;
+    padding-left: 30vw;
+    padding-top: 8vh;
+    padding-bottom: 6vh;
+    margin-top: 5vh;
+    background-color: rgb(99, 98, 167);
+}
+#package i.fa-suitcase {
+    color: rgb(245, 185, 68);
+    padding-right: 11vw;
+    font-size: 7rem;
+}
+#package i.fa-rocket {
+    color: rgb(106, 241, 208);
+    padding-right: 11vw;
+    font-size: 7rem;
+}
+#package i.fa-leaf {
+    color: rgb(198, 241, 106);
+    font-size: 7rem;
+}
+#package p.above {
+    color: #ffffff;
+    font-size: xx-large;
+    padding-left: 1vw;
+    padding-top: 1vw;
+}
+#pfl .container-fluid {
+    display: block;
+    box-sizing: inherit;
+    padding-left: 20.5vw;
+    padding-top: 4vh;
+    padding-bottom: 4vh;
+    background-color: rgb(143, 142, 199);
+}
+#pfl h2 {
+    color: #ffffff;
+    text-align: left;
+}
+#pfl .container {
+    max-width: 50vw;
+    margin-left: 20vw;
+    padding-top: 5vh;
+    padding-bottom: 5vh;
+}
+#pfl .mybutton {
+    background-color: rgb(255, 206, 34);
+    color: rgb(51, 51, 51);
+    max-width: 236px;
+    max-height: 67px;
+    margin-left: 20.5vw;
+    margin-bottom: 2vh;
+    font-size: 21px;
+    font-weight: bold;
+    border: none;
+    border-radius: 4px;
+    padding: 20px 45px;
+}
+/* start copyright */
+#copyright {
+    padding-top: 25px;
+    position: sticky;
+    background: rgb(51, 51, 51);
+}
+#copyright p {
+    font-size: 1rem;
+    color: white;
+    padding-left: 2vw;
+}
+#copyright .container {
+    margin-left: -25vw;
+}
+/* end copyright */
+@media only screen and (max-width: 1440px)
+{
+  #package {
+    padding-left: 20vw;
+  }
+  p.text {
+    max-width: 60vw;
+}
+}
+ 
+
+@media only screen and (max-width: 768px) {
+    #package {
+        padding-left: 15vw;
+    }
+    #package i.fa-suitcase {
+        font-size: 7rem;
+    }
+    #package i.fa-rocket {
+        font-size: 7rem;
+    }
+    #package i.fa-leaf {
+        font-size: 7rem;
+    }
+    #pfl .container {
+      max-width: 90vw;
+      /* margin-left: 15vw; */
+}
+@media only screen and (max-width: 570px){
+ 
+  #package i.fa-suitcase {
+    padding-left: 2.5vw;
+    font-size: 3rem;
+}
+#package i.fa-rocket {
+    font-size: 3rem;
+}
+#package i.fa-leaf {
+    font-size: 3rem;
+}
+}
+@media only screen and (max-width: 375px) {
+    #package .pack {
+        margin-left: -19vw;
+        padding-right: 23vw;
+    }
+    #package i.fa-suitcase {
+        font-size: xx-large;
+        padding-left: 2.5vw;
+    }
+    #package i.fa-rocket {
+        font-size: xx-large;
+    }
+    #package i.fa-leaf {
+        font-size: xx-large;
+    }
+    #pfl .container {
+        max-width: 80vw;
+        padding-top: 5vh;
+        padding-bottom: 5vh;
+        margin-left: 5vw;
+    }
+    #copyright p {
+        padding-left: 20vw;
+    }
+}
+@media only screen and (max-width: 360px) {
+    #package .pack {
+        margin-left: -19vw;
+        padding-right: 23vw;
+    }
+    #package i.fa-suitcase ::before{
+      font-size: medium;
+        padding-left: 2.5vw;
+    }
+    #package i.fa-rocket {
+      font-size: medium;
+    }
+    #package i.fa-leaf {
+        font-size: medium;
+    }
+    #package p.above {
+        font-size: 1.5rem;
+        padding-left: 1vw;
+        padding-top: 1vw;
+    }
+    #pfl .mybutton {
+        margin-left: 15vw;
+    }
+
+    #pfl .container {
+        max-width: 80vw;
+        padding-top: 5vh;
+        padding-bottom: 5vh;
+        margin-left: 5vw;
+    }
+    #copyright p {
+        padding-left: 20vw;
+    }
+}

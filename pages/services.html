@@ -1,144 +1,284 @@
 <!DOCTYPE html>
 <html lang="en">
-  <head>
-    <meta charset="utf-8" />
-    <title>COSMOS</title>
-    <meta http-equiv="X-UA-Compatible" content="IE=Edge" />
-    <meta name="viewport" content="width=device-width, initial-scale=1" />
-    <link rel="stylesheet" href="../bootstrap.css" />
-    <link rel="stylesheet" href="../custom.css" />
-  </head>
+    <head>
+        <meta charset="utf-8" />
+        <title>COSMOS - Services</title>
+        <meta http-equiv="X-UA-Compatible" content="IE=Edge" />
+        <meta name="viewport" content="width=device-width, initial-scale=1" />
+        <link rel="stylesheet" href="../css/bootstrap.css" />
+        <link
+            rel="stylesheet"
+            href="https://use.fontawesome.com/releases/v5.8.1/css/all.css"
+        />
+        <link rel="stylesheet" href="../css/custom.css" />
+        <link rel="stylesheet" href="../css/navbar.css" />
+        <link rel="stylesheet" href="../css/carousel.css" />
+    </head>
 
-  <body>
-    <nav class="navbar navbar-expand-lg navbar-noflex" role="navigation">
-      <ul>
-        <li>
-          <a class="navbar-brand" href="../index.html">COSMOS</a>
-        </li>
-        <li>
-          <div class="collapse navbar-collapse" id="navbarNavAltMarkup">
-            <div class="navbar-nav">
-              <a class="nav-item nav-link" href="../index.html">HOME</a>
-              <a class="nav-item nav-link" href="projects.html">PROJECTS</a>
-              <a class="nav-item nav-link active" href="services.html"
-                >SERVICES <span class="sr-only"></span
-              ></a>
-            </div>
-          </div>
-        </li>
-        <li>
-          <button
-            class="navbar-toggler"
-            type="button"
-            data-toggle="collapse"
-            data-target="#navbarNavAltMarkup"
-            aria-controls="navbarNavAltMarkup"
-            aria-expanded="false"
-            aria-label="Toggle navigation">
-            <span class="navbar-toggler-icon"></span>
-          </button>
-        </li>
-      </ul>
-    </nav>
-    <!--start carousel-->
-    <section id="slideshow">
-      <div id="carouselExampleIndicators" class="carousel slide" data-ride="carousel">
-        <div class="carousel-inner">
-          <div class="carousel-item active">
-            <div class="row">
-              <img class="d-block w-100" src="../imgs/s1.png" alt="Enceladus">
-              <div class="carousel-caption">
-                <h5><b>ENCELADUS</b></h5>
-                <p><b>The Saturn System <br/> Distance: 9.5 AU <br/>Population: 3920</b></p>
-              </div>
-             <!--start price tag-->
-              <div class="card" style="width: 18rem;">
-                <div class="card-body">
-                  <h5 class="card-title">Enceladus</h5>
-                  <p class="card-text">
-                    is the sixth-largest moon of Saturn. It is about a tenth of
-                    Saturn's largest moon, Titan. <br/><br/>
-                    Explore this amazing cosmic marvel in a safe and fast trip
-                    with our aerospace company.
-                  </p>
-                  <a href="#" class="btn btn-primary mybtn">BUY</a>
+    <body>
+        <header>
+            <nav class="navbar navbar-expand-lg navbar-dark">
+                <a class="navbar-brand" href="../index.html"
+                    ><img src="../imgs/COSMOS.png"
+                /></a>
+                <button
+                    class="navbar-toggler"
+                    type="button"
+                    data-toggle="collapse"
+                    data-target="#navbarSupportedContent"
+                    aria-controls="navbarSupportedContent"
+                    aria-expanded="false"
+                    aria-label="Toggle navigation"
+                >
+                    <span class="navbar-toggler-icon"></span>
+                </button>
+
+                <div
+                    class="collapse navbar-collapse"
+                    id="navbarSupportedContent"
+                >
+                    <ul class="navbar-nav ">
+                        <li class="nav-item ">
+                            <a class="nav-link" href="../index.html">HOME</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link" href="projects.html"
+                                >PROJECTS</a
+                            >
+                        </li>
+                        <li class="nav-item active">
+                            <a class="nav-link" href="services.html"
+                                >SERVICES</a
+                            >
+                        </li>
+                    </ul>
                 </div>
-              </div>
-            </div>
-            <!--end price tag-->
-          </div>
-          <div class="carousel-item">
-            <div class="row">
-              <img class="d-block w-100" src="../imgs/img2.jpg" alt="Iapetus">
-              <div class="card" style="width: 18rem;">
-                <div class="card-body">
-                  <h5 class="card-title">Iapetus</h5>
-                  <p class="card-text">
-                    is the third-largest natural satellite of Saturn, eleventh-largest in the Solar System and the largest body in the Solar System known not to be in hydrostatic equilibrium.<br/><br/>
-                    Explore this amazing cosmic marvel in a safe and fast trip with our aerospace company.
-                  </p>
-                  <a href="#" class="btn btn-primary mybtn">BUY</a>
+            </nav>
+        </header>
+
+        <!--start carousel-->
+        <section id="slideshow">
+            <div
+                id="carouselExampleIndicators"
+                class="carousel slide"
+                data-ride="carousel"
+            >
+                <div class="carousel-inner">
+                    <div class="carousel-item active">
+                        <div class="row">
+                            <img
+                                class="d-block w-100"
+                                src="../imgs/s1.png"
+                                alt="Enceladus"
+                            />
+                            <div class="carousel-caption">
+                                <h5><b>ENCELADUS</b></h5>
+                                <p>
+                                    <b
+                                        >The Saturn System <br />
+                                        Distance: 9.5 AU <br />Population:
+                                        3920</b
+                                    >
+                                </p>
+                            </div>
+
+                            <!--start price tag-->
+                            <div class="card" style="width: 18rem;">
+                                <div class="card-body">
+                                    <!--card border-->
+
+                                    <i
+                                        id="icon"
+                                        class="fas fa-chevron-left"
+                                    ></i>
+
+                                    <!--end card border-->
+                                    <h5 class="card-title">Enceladus</h5>
+                                    <p class="card-text">
+                                        is the sixth-largest moon of Saturn. It
+                                        is about a tenth of Saturn's largest
+                                        moon, Titan. <br /><br />
+                                        Explore this amazing cosmic marvel in a
+                                        safe and fast trip with our aerospace
+                                        company.
+                                    </p>
+                                </div>
+                                <div class="card-footer">
+                                    <h2 class="c-footer">999.990 €</h2>
+                                    <p class="c-footer">one way ticket</p>
+                                    <a href="#" class="btn btn-primary mybtn"
+                                        >BUY</a
+                                    >
+                                </div>
+                            </div>
+                        </div>
+                        <!--end price tag-->
+                    </div>
+                    <div class="carousel-item">
+                        <div class="row">
+                            <img
+                                class="d-block w-100"
+                                src="../imgs/saturn.jpg"
+                                alt="Iapetus"
+                            />
+                            <div class="carousel-caption">
+                                <h5><b>IAPETUS</b></h5>
+                                <p>
+                                    <b
+                                        >The Saturn System <br />
+                                        Distance: 5.9 AU <br />Population:
+                                        2930</b
+                                    >
+                                </p>
+                            </div>
+                            <div class="card" style="width: 18rem;">
+                                <div class="card-body">
+                                    <!--card border-->
+
+                                    <i
+                                        id="icon"
+                                        class="fas fa-chevron-left"
+                                    ></i>
+
+                                    <!--end card border-->
+                                    <h5 class="card-title">Iapetus</h5>
+                                    <p class="card-text">
+                                        is the third-largest natural satellite
+                                        of Saturn, eleventh-largest in the Solar
+                                        System.<br /><br />
+                                        Explore this amazing cosmic marvel in a
+                                        safe and fast trip with our aerospace
+                                        company.
+                                    </p>
+                                </div>
+                                <div class="card-footer">
+                                    <h2 class="c-footer">999.990 €</h2>
+                                    <p class="c-footer">one way ticket</p>
+                                    <div class="btn-container">
+                                        <a
+                                            href="#"
+                                            class="btn btn-primary mybtn"
+                                            >BUY</a
+                                        >
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
                 </div>
-              </div>
+                <a
+                    class="carousel-control-prev"
+                    href="#carouselExampleIndicators"
+                    role="button"
+                    data-slide="prev"
+                >
+                    <span
+                        class="carousel-control-prev-icon"
+                        aria-hidden="true"
+                    ></span>
+                    <span class="sr-only">Previous</span>
+                </a>
+                <a
+                    class="carousel-control-next"
+                    href="#carouselExampleIndicators"
+                    role="button"
+                    data-slide="next"
+                >
+                    <span
+                        class="carousel-control-next-icon"
+                        aria-hidden="true"
+                    ></span>
+                    <span class="sr-only">Next</span>
+                </a>
             </div>
-            
-          </div>
-        </div>
-        <a class="carousel-control-prev" href="#carouselExampleIndicators" role="button" data-slide="prev">
-          <span class="carousel-control-prev-icon" aria-hidden="true"></span>
-          <span class="sr-only">Previous</span>
-        </a>
-        <a class="carousel-control-next" href="#carouselExampleIndicators" role="button" data-slide="next">
-          <span class="carousel-control-next-icon" aria-hidden="true"></span>
-          <span class="sr-only">Next</span>
-        </a>
-      </div>
-      <!--end carousel-->
-    </section>
-    <section id="package">
-      <div class="container-fluid">
-        <div class="row">
-          <div>
-            <i class="fas fa-suitcase fa-7x"></i>
-            <p><b>pack</b></p>
-          </div>
-          <div>
-            <i class="fas fa-rocket fa-7x"></i>
-            <p><b>fly</b></p>
-          </div>
-          <div>
-            <i class="fas fa-leaf fa-7x"></i>
-            <p><b>live</b></p>
-          </div>
-        </div>
-      </div>
-        
-    </section>
-    <section id="pfl">
-      <div class="container-fluid">
-        <h2><strong>PFL Package</strong></h2>
-      </div>
-      <div class="container">
-        <p>Out pack fly live package includes lpsum dolor sit amet, consectetur adipiscing elit. Vivamus ex ante, tristique sed elit id, scelerisque scelerisque risus. Nulla malesuada suscipit vehicula. Vestibulum mauris purus, malesuada eget laoreet et, mattis eu purus. Sed arcu enim, rhoncus non porta eu, finibus sed erat. Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed laoreet vitae nisi vel ornare. Cras velit neque, tincidunt et purus eu, semper dignissim risus. Quisque gravida interdum ipsum ac dignissim. Aenean fringilla libero leo, vitae varius magna convallis vel. Morbi luctus ligula erat, vitae pulvinar nunc pretium nec. Integer id facilisis nibh. In porta at tellus eget consectetur. Vestibulum nisl nunc, euismod a aliquet sit amet, fermentum in massa.</p>
-        <p>Nunc quis eros facilisis, sagittis ex vitae, mattis sapien. Duis feugiat dictum vehicula. Nullam vestibulum tellus nisi, eu euismod velit finibus et. Aliquam id risus non sem pulvinar pulvinar in quis tellus. Pellentesque eget ipsum dignissim, molestie est vitae, tincidunt elit. Pellentesque suscipit, magna ac molestie luctus, magna massa placerat purus, in dictum urna dui vel massa. Curabitur eget est felis. Morbi eleifend libero a turpis sollicitudin aliquet.</p>
-      </div>
-      <button class="mybutton">ORDER NOW</button>
-    </section>
-    <footer id="copyright">
-      <div class="container">
-        <div class="row">
-          <div class="col-md-12 text-center">
-            <p class="wow bounceIn" data-wow-offset="50" data-wow-delay="0.3s">
-              Copyright &copy; COSMOS 2017
-            </p>
-          </div>
-        </div>
-      </div>
-    </footer>
-    
-    <script src="https://code.jquery.com/jquery-3.4.1.slim.min.js" integrity="sha384-J6qa4849blE2+poT4WnyKhv5vZF5SrPo0iEjwBvKU7imGFAV0wwj1yYfoRSJoZ+n" crossorigin="anonymous"></script>
-    <script src="https://cdn.jsdelivr.net/npm/popper.js@1.16.0/dist/umd/popper.min.js" integrity="sha384-Q6E9RHvbIyZFJoft+2mJbHaEWldlvI9IOYy5n3zV9zzTtmI3UksdQRVvoxMfooAo" crossorigin="anonymous"></script>
-    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/js/bootstrap.min.js" integrity="sha384-wfSDF2E50Y2D1uUdj0O3uMBJnjuUD4Ih7YwaYd1iqfktj0Uod8GCExl3Og8ifwB6" crossorigin="anonymous"></script>
-    <script src="https://kit.fontawesome.com/0d11871767.js" crossorigin="anonymous"></script>
-  </body>
+            <!--end carousel-->
+        </section>
+        <section id="package">
+            <div class="container-fluid">
+                <div class="row">
+                    <div class="pack">
+                        <i class="fas fa-suitcase"></i>
+                        <p class="above"><strong>pack</strong></p>
+                    </div>
+                    <div class="pack">
+                        <i class="fas fa-rocket"></i>
+                        <p class="above"><strong>fly</strong></p>
+                    </div class="pack">
+                    <div class="pack">
+                        <i class="fas fa-leaf"></i>
+                        <p class="above"><strong>live</strong></p>
+                    </div class="pack">
+                </div>
+            </div>
+        </section>
+        <section id="pfl">
+            <div class="container-fluid">
+                <h2><strong>PFL Package</strong></h2>
+            </div>
+            <div class="container">
+                <p class="text">
+                    Out pack fly live package includes lpsum dolor sit amet,
+                    consectetur adipiscing elit. Vivamus ex ante, tristique sed
+                    elit id, scelerisque scelerisque risus. Nulla malesuada
+                    suscipit vehicula. Vestibulum mauris purus, malesuada eget
+                    laoreet et, mattis eu purus. Sed arcu enim, rhoncus non
+                    porta eu, finibus sed erat. Lorem ipsum dolor sit amet,
+                    consectetur adipiscing elit. Sed laoreet vitae nisi vel
+                    ornare. Cras velit neque, tincidunt et purus eu, semper
+                    dignissim risus. Quisque gravida interdum ipsum ac
+                    dignissim. Aenean fringilla libero leo, vitae varius magna
+                    convallis vel. Morbi luctus ligula erat, vitae pulvinar nunc
+                    pretium nec. Integer id facilisis nibh. In porta at tellus
+                    eget consectetur. Vestibulum nisl nunc, euismod a aliquet
+                    sit amet, fermentum in massa.
+                </p>
+                <p class="text">
+                    Nunc quis eros facilisis, sagittis ex vitae, mattis sapien.
+                    Duis feugiat dictum vehicula. Nullam vestibulum tellus nisi,
+                    eu euismod velit finibus et. Aliquam id risus non sem
+                    pulvinar pulvinar in quis tellus. Pellentesque eget ipsum
+                    dignissim, molestie est vitae, tincidunt elit. Pellentesque
+                    suscipit, magna ac molestie luctus, magna massa placerat
+                    purus, in dictum urna dui vel massa. Curabitur eget est
+                    felis. Morbi eleifend libero a turpis sollicitudin aliquet.
+                </p>
+            </div>
+            <button class="mybutton">ORDER NOW</button>
+        </section>
+        <footer id="copyright">
+            <div class="container">
+                <div class="row">
+                    <div class="col-md-12 text-center">
+                        <p
+                            class="wow bounceIn"
+                            data-wow-offset="50"
+                            data-wow-delay="0.3s"
+                        >
+                            Copyright &copy; COSMOS 2017
+                        </p>
+                    </div>
+                </div>
+            </div>
+        </footer>
+
+        <script
+            src="https://code.jquery.com/jquery-3.4.1.slim.min.js"
+            integrity="sha384-J6qa4849blE2+poT4WnyKhv5vZF5SrPo0iEjwBvKU7imGFAV0wwj1yYfoRSJoZ+n"
+            crossorigin="anonymous"
+        ></script>
+        <script
+            src="https://cdn.jsdelivr.net/npm/popper.js@1.16.0/dist/umd/popper.min.js"
+            integrity="sha384-Q6E9RHvbIyZFJoft+2mJbHaEWldlvI9IOYy5n3zV9zzTtmI3UksdQRVvoxMfooAo"
+            crossorigin="anonymous"
+        ></script>
+        <script
+            src="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/js/bootstrap.min.js"
+            integrity="sha384-wfSDF2E50Y2D1uUdj0O3uMBJnjuUD4Ih7YwaYd1iqfktj0Uod8GCExl3Og8ifwB6"
+            crossorigin="anonymous"
+        ></script>
+        <script
+            src="https://kit.fontawesome.com/0d11871767.js"
+            crossorigin="anonymous"
+        ></script>
+    </body>
 </html>

@@ -1,0 +1,198 @@
+#carouselExampleIndicators .carousel-item img {
+    max-width: 50vw;
+    max-height: 50vh;
+    margin-left: 12vw;
+    margin-right: 5px;
+    margin-bottom: 5px;
+    margin-top: 3vw;
+}
+#carouselExampleIndicators .carousel-caption {
+    text-align: left;
+    top: 5vh;
+    bottom: auto;
+}
+#carouselExampleIndicators .card {
+    margin-top: 3vw;
+    max-height: 50vh;
+    border-style: solid;
+    border-width: 7px;
+    border-color: rgb(143, 142, 199);
+    border-radius: inherit;
+    margin-left: 2vw;
+}
+#carouselExampleIndicators .card-footer {
+    padding: inherit;
+    background-color: rgb(99, 98, 167);
+    width: 100%;
+    height: 10vh;
+}
+#carouselExampleIndicators .card-footer .c-footer {
+    color: #ffffff;
+    font-weight: bold;
+    padding-left: 1vw;
+}
+.btn-container {
+    width: 99%;
+}
+.mybtn {
+    width: 8vw;
+    font-weight: bold;
+    color: rgb(51, 51, 51);
+    background-color: rgb(255, 206, 34);
+    position: absolute;
+    right: 10px;
+    bottom: 10px;
+    -webkit-box-shadow: -1px 6px 18px -4px rgba(0, 0, 0, 0.63);
+    -moz-box-shadow: -1px 6px 18px -4px rgba(0, 0, 0, 0.63);
+    box-shadow: -1px 6px 18px -4px rgba(0, 0, 0, 0.63);
+}
+.carousel-control-prev-icon,
+.carousel-control-next-icon {
+    height: 92px;
+    width: 92px;
+    outline: rgb(99, 98, 167);
+    background-size: 100%, 100%;
+    border-radius: 50%;
+    background-color: rgb(99, 98, 167);
+    background-size: 2vw;
+}
+#icon {
+    position: absolute;
+    top: 10.5rem;
+    left: -1.6rem;
+    z-index: 2;
+    background-color: white;
+    color: rgb(143, 142, 199);
+    font-size: 3rem;
+}
+/*end carousel*/
+@media only screen and (min-width: 1070px) {
+    #carouselExampleIndicators .card-footer c-footer {
+        padding-left: 1vw;
+    }
+
+    .btn-container {
+        padding-left: 1vw;
+    }
+}
+@media only screen and (max-width: 775px) {
+    #pfl .container {
+        max-width: -moz-fit-content !important;
+    }
+    #slideshow {
+        min-height: 300px;
+        font-size: inherit;
+    }
+    #carouselExampleIndicators .carousel-item img {
+        max-width: 80vw;
+        max-height: 80vh;
+        margin-left: 12vw;
+        margin-right: 5px;
+        margin-top: 3vw;
+    }
+    .carousel-control-prev-icon,
+    .carousel-control-next-icon {
+        background-size: 5vw;
+    }
+    #carouselExampleIndicators .card {
+        margin-top: 3vw;
+        max-height: 50vh;
+        border-style: solid;
+        border-width: 7px;
+        border-color: rgb(143, 142, 199);
+        border-radius: inherit;
+        margin-left: 30vw;
+    }
+    .mybtn {
+        justify-content: space-around;
+        max-width: 20vw;
+    }
+    #carouselExampleIndicators .card-footer {
+        padding-left: 5vw;
+    }
+}
+@media only screen and (max-width: 649px) {
+    #pfl .container {
+        max-width: -moz-fit-content !important;
+    }
+    #slideshow {
+        min-height: 300px;
+        font-size: inherit;
+    }
+    #carouselExampleIndicators .carousel-item img {
+        max-width: 80vw;
+        max-height: 80vh;
+        margin-left: 12vw;
+        margin-right: 5px;
+        margin-top: 3vw;
+    }
+    .carousel-control-prev-icon,
+    .carousel-control-next-icon {
+        background-size: 5vw;
+    }
+    #carouselExampleIndicators .card {
+        margin-top: 3vw;
+        max-height: 50vh;
+        border-style: solid;
+        border-width: 7px;
+        border-color: rgb(143, 142, 199);
+        border-radius: inherit;
+        margin-left: 30vw;
+    }
+    .mybtn {
+        justify-content: space-around;
+        max-width: 20vw;
+    }
+    #carouselExampleIndicators .card-footer {
+        padding-left: 7vw;
+    }
+}
+@media only screen and (max-width: 556px) {
+    #carouselExampleIndicators .card {
+        margin-left: 25vw;
+    }
+    .mybtn {
+        justify-content: space-around;
+        max-width: 20vw;
+    }
+    #carouselExampleIndicators .card-footer {
+        padding-left: 10vw;
+    }
+}
+@media only screen and (max-width: 460px) {
+    #carouselExampleIndicators .card {
+        margin-left: 19vw;
+    }
+    .mybtn {
+        justify-content: space-around;
+        max-width: 20vw;
+    }
+    #carouselExampleIndicators .card-footer {
+        padding-left: 10vw;
+    }
+}
+@media only screen and (max-width: 360px) {
+    #carouselExampleIndicators .card {
+        margin-left: 12vw;
+    }
+    #carouselExampleIndicators .carousel-item img {
+        max-width: 95vw;
+        max-height: 100vh;
+        margin-left: 7vw;
+        margin-right: 7vw;
+        margin-top: 30vw;
+    }
+    #carouselExampleIndicators .carousel-caption {
+        margin-top: 10vh;
+    }
+    #carouselExampleIndicators .card-footer {
+        padding-left: 10vw;
+    }
+    .mybtn {
+        justify-content: space-around;
+        max-width: 20vw;
+    }
+    #icon {
+        top: 7rem;
+    }
+}
